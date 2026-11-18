@@ -1,0 +1,10 @@
+{
+    "name": "vacarel/gestion",
+    "description": "Exportaciones de informes de gestión de Vacarel",
+    "require": {
+        "php": "^8.1",
+        "dompdf/dompdf": "^3.1",
+        "shuchkin/simplexlsxgen": "^1.5"
+    },
+    "config": {"vendor-dir": "app/vendor", "allow-plugins": false, "sort-packages": true}
+}

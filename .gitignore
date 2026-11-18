@@ -1,0 +1,7 @@
+/app/config.local.php
+/app/initial-access.txt
+*.log
+/tests/*.sqlite
+/app/vendor/
+/app/cache/
+/artifacts/report-tools/

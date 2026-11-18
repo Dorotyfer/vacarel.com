@@ -1,0 +1,22 @@
+/* Palette sampled from Vacarel's public logo; UI shades are adaptations. */
+:root{--ink:#162e3a;--muted:#6b7e88;--green:#006f94;--dark:#063e53;--line:#dfe8ed;--paper:#f3f7f9;--accent:#c9f0fb;--white:#fff;--red:#ab3c31;--brand-petroleum:#00445e;--brand-cyan:#00a5cc}
+.icon{width:20px;height:20px;display:inline-block;flex-shrink:0;vertical-align:middle;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.brand-official{display:block;background:#fff;border-radius:10px;overflow:hidden;line-height:0;padding:0}
+.brand-official img{display:block;width:100%;height:128px;object-fit:contain;object-position:center;padding:8px}
+.sidebar .brand-official{margin:0 0 24px;flex-shrink:0}
+.sidebar .workspace,.sidebar nav,.sidebar-bottom{flex-shrink:0}
+.login-brand .brand-official{width:280px;max-width:100%}
+.login-brand .brand-official img{height:178px}
+.workspace{border-color:#39687b}.workspace-icon{background:#265f75;color:#d8f5ff}.workspace small{color:#b3ceda}
+.sidebar{color:#d1e4ed}.nav-label{color:#a4c6d6}.sidebar-bottom{color:#c0dce8}.sidebar-bottom small{color:#a5c6d5}
+nav a:hover{background:#14556e}nav a.active{color:#063e53;background:#d2f2fc}nav a>.icon{width:19px;height:19px}
+.primary:hover{background:#005875}.stat-icon{background:#e4f3f9;color:#00789f}.avatar{background:#e1f2f8;color:#006888}
+.activity .quantity{background:#e4f4fa;color:#006888}.notice{background:#e8f3f8;color:#345b70}
+.badge{background:#e5f2f8;color:#226b8a}.badge.warning{background:#fff0d9;color:#9b6c1d}.badge.danger{background:#fae9e5;color:#ad5143}
+th{background:#f7fafc;color:#637e8c}td{border-color:#edf2f5}.activity{border-color:#edf2f5}input,select{border-color:#d4e1e8}input:focus,select:focus{outline-color:#72b7cf}
+.empty-symbol{color:#93b1c0}.empty-symbol .icon{width:30px;height:30px}.login-brand p{color:#c1dce7}.login-foot{color:#b3d4e2}
+@media(max-width:1100px){.sidebar .brand-official img{height:112px}}
+@media(max-width:720px){.login-brand .brand-official{width:210px}.login-brand .brand-official img{height:125px}}
+@font-face{font-family:Inter;src:url("fonts/Inter-Regular.woff") format("woff");font-weight:400;font-display:swap}
+@font-face{font-family:Inter;src:url("fonts/Inter-SemiBold.woff") format("woff");font-weight:600;font-display:swap}
+@font-face{font-family:Inter;src:url("fonts/Inter-Bold.woff") format("woff");font-weight:700;font-display:swap}
